@@ -267,7 +267,7 @@ Resources:
     Type: AWS::EC2::Instance
     CreationPolicy:
       ResourceSignal:
-        Timeout: PT5M
+        Timeout: PT15M
         Count: 1
     Properties:
       LaunchTemplate:
